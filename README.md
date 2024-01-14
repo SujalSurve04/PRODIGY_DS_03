@@ -1,31 +1,27 @@
 # PRODIGY_DS_03
 
-Decision Tree Classifier for Iris Dataset
-Overview
+# Decision Tree Classifier for Iris Dataset
+## Overview
 This Python script uses the scikit-learn library to implement a Decision Tree Classifier on the famous Iris dataset. The dataset contains measurements of sepal length, sepal width, petal length, and petal width for three different species of iris flowers.
 
-Dependencies
+## Dependencies
 Make sure you have the necessary libraries installed before running the script. You can install them using:
-
-bash
-Copy code
+```bash
 pip install scikit-learn
-Usage
+```
+### Usage
 Clone the repository:
-
-bash
-Copy code
+```bash
 git clone https://github.com/SujalSurve04/PRODIGY_DS_03
-Navigate to the project directory:
-
-bash
-Copy code
+```
+### Navigate to the project directory:
+```bash
 cd your-repository
-Run the script:
-
-bash
-Copy code
+```
+### Run the script:
+```bash
 python decision_tree_classifier.py
+```
 Code Explanation
 Import Necessary Libraries:
 
@@ -53,9 +49,12 @@ Display Results:
 
 The script prints the accuracy, confusion matrix, and classification report.
 Display Decision Tree Rules:
-
 The decision tree rules are displayed in a textual format using the export_text function.
-Results
+
+### Results
 The script outputs the accuracy of the model, confusion matrix, and classification report. Additionally, it provides the decision tree rules in a human-readable format.
 
-Feel free to customize the script or incorporate it into your projects as needed.
+### Author
+Sujal Surve
+
+
